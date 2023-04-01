@@ -5,67 +5,313 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Koding & Kahawa</title>
   </head>
   <body>
     <header>
-      <div class="logo animate-charcter">Koding & Kahawa</div>
+        <div class="logo">
+          <div class="log">
+            <img src="images/koding.png" alt="" srcset="">
+          </div>
+          <div class="animate-charcter">
+            Koding & Kahawa
+          </div>
+        </div>
+      
       <div class="toggle"></div>
       <div class="navigation">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">About</a></li>
-          <li><a href="work.html">What we do</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about_us">About Us</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="social-bar">
-          <ul>
-            <li>
-              <a href="https://facebook.com">
-                <i class="icon-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com">
-                <i class="icon-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://instagram.com">
-                <i class="icon-linkedin"></i>
-              </a>
-            </li>
-          </ul>
-          <a href="mailto:you@email.com" class="email-icon">
-            <i class="icon-linkedin"></i>
-          </a>
-        </div>
       </div>
     </header>
 
-    <section class="home">
+    <!-- Home Page -->
+    <section class="home" id="home">
       <div class="container">
         <img src="images/portfolio-item1.jpg" alt="" srcset="">
         <img src="images/portfolio-item14.jpg" alt="" srcset="">
         <img src="images/home-img.jpg" alt="" srcset="">
-        
       </div>
       <div class="home-content">
         <h1>
-          We help to achieve <br />
-          your goals.
+          Welcome to Koding and Kahawa <br />
+          <span style = "color:orange">Where we turn coffee into code.
+            .</span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo itaque
-          nam saepe vero voluptatem vel fuga a eaque earum alias ipsam
-          aspernatur culpa maxime laboriosam, impedit quae officiis consectetur
+          Koding & Kahawa is an online developers community that 
+          offers mentorship and peer support. We bring together 
+          developers at all levels who want to develop their 
+          programming skills as well as 
+          connect with industry professionals and their peers.
         </p>
-        <a href="contact.html" class="btn">Learn More</a>
+        <a href="#contact" class="btn">Reach Out</a>
       </div>
     </section>
+
+    <!-- About us page -->
+    <section id="about_us">
+      <h1>Koding and Kahawa Community Values</h1>
+          <div class="commitments">
+            <div class="headlines">
+              <h5>Community and camaraderie</h5>
+              <p>Build meaningful relationships. We’re in it together and genuinely 
+              there to support one another in our successes (and failures).</p>
+              <h5>Continual learning and growth</h5>
+              <p>Challenge yourself to grow. Recognizing that learning means putting 
+              in the work, sometimes making mistakes, but always coming out stronger on the other side.
+              </p>
+              <h5>A holistic approach to success</h5>
+              <p>Growing as a person goes hand-in-hand with progressing in your career. Beyond your 
+              technical skills, work on reflection, mindset, and your overall well-being.</p>
+              <h5>Enjoy the process</h5>
+              <p>While we work hard to accomplish our goals and have fun at the same time.</p>
+            </div>
+          <div class="image">
+            <img src="images/koding1.png" alt="" srcset="">
+          </div>
+        </div>
+        
+        
+      <!-- <div class="services">
+        <div class="service">
+          <div class="icon">
+            <img src="images/001.png" alt="" />
+          </div>
+          <h2>Web Development</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+          nemo sapiente in quidem sed dolores cumque!</p>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="images/002.png" alt="" />
+          </div>
+          <h2>Android Development</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+            nemo sapiente in quidem sed dolores cumque!</p>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="images/003.png" alt="" />
+          </div>
+          <h2>Data Science</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+            nemo sapiente in quidem sed dolores cumque!</p>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="images/004.png" alt="" />
+          </div>
+          <h2>Blockchain Technology</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+            nemo sapiente in quidem sed dolores cumque!</p>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="images/005.png" alt="" />
+          </div>
+          <h2>Machine Learning</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+            nemo sapiente in quidem sed dolores cumque!</p>
+        </div>
+        <div class="service">
+          <div class="icon">
+            <img src="images/006.png" alt="" />
+          </div>
+          <h2>Artificial intelligence</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum omnis
+            nemo sapiente in quidem sed dolores cumque!</p>
+        </div>
+      </div> -->
+    </section>
+
+    <!-- Blog Posts -->
+    <section id="blog">
+      <div class="title" id="work">
+        <h1>What’s next for you?</h1>
+        <p>
+          Koding and Kahawa puts you in the driver’s seat. 
+          While we’ll give you some structure to get better at what you do, 
+          we know that the best communities are the ones where you get a chance to create your own experience. 
+          This is a space you can use to help reach your goals. 
+          The more you put in—by engaging with others—the more you’ll get out of it too.
+        </p>
+        <p style ="color:rgb(255, 174, 0)">Here are some of Our Accomplishments</p>
+      </div>
+
+      <div class="portfolio">
+        <div class="item">
+          <img src="images/portfolio-item1.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item2.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item3.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item4.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item5.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item6.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item7.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item8.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item9.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item10.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item11.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-item12.jpg" alt="" />
+          <div class="action">
+            <a href="#">Launch</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- contact page -->
+    <section id="contact">
+      <!-- <div class="title" id="contact"> -->
+        <h1>Engage and connect with others in the industry</h1>
+        <div class="engagement">
+          <div class="image">
+            <img src="images/koding2.jpg" alt="" srcset="">
+          </div>
+          <p>Build meaningful relationships through community events and conversations. 
+            In a fast-paced industry, exchange ideas and resources to keep a pulse on tech trends and new job opportunities. 
+          </p>
+        </div>
+
+      </div>
+      <h4>Join Our Community</h4>
+      <div class="contact">
+        <div class="contact-form">
+          <form>
+            <div class="row">
+              <div class="input50">
+                <input type="text" placeholder="First Name" />
+              </div>
+              <div class="input50">
+                <input type="text" placeholder="Last Name" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input50">
+                <input type="text" placeholder="Email" />
+              </div>
+              <div class="input50">
+                <input type="text" placeholder="Subject" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input100">
+                <textarea placeholder="Message"></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input100">
+                <input type="submit" value="Send" class ="submit" style ="background-color:rgb(68, 8, 8)"/>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          
+          <div class="info-box">
+            <img src="images/address.png" class="contact-icon" alt="" />
+            <div class="details">
+              <h4>Address</h4>
+              <p>Nairobi, Kenya</p>
+            </div>
+          </div>
+         
+          <div class="info-box">
+            <img src="images/call.png" class="contact-icon" alt="" />
+            <div class="details">
+              <h4>Call</h4>
+              <a href="tel:+19785555555">+254 712345678</a>
+            </div>
+          </div>
+          <div class="social-bar">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/company/koding-kahawa/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/KodingKahawa">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="links">
+            <p><a href="https://withkoji.com/@KodingnKahawa">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
 
     <script src="js/script.js"></script>
   </body>
