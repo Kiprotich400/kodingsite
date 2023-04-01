@@ -720,7 +720,7 @@ h1{
     font-size:13px;
   }
   .engagement p{
-    max-width: 200px;
+    padding: 0 35px;
   }
   .contact{
     width: 100vw;
