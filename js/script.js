@@ -29,7 +29,7 @@ counters.forEach(counter => {
 			// Call function every ms
 			setTimeout(updateCount, 1);
 		} else {
-			counter.innerText = target;
+			counter.innerText = target+"+";
 		}
 	};
 
