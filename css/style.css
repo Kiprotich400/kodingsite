@@ -193,33 +193,31 @@ span{
   position: absolute;
   width: 360px;
   height: 640px;
-  top:40px;
-  right: 120px;
+  top:90px;
+  right: 150px;
   background: rgba(0, 0, 0, 0);
   transform: rotate(40deg) skew(10deg) scale(0.8);
   transition: 0.5s;
 }
 .container img {
   position: absolute;
-  width: 100%;
+  width: 300px;
+  height: 450px;
   transition: 0.5s;
   border-radius: 10px;
 }
-.container:hover img:nth-child(4) {
-  transform: translate(120px, -160px);
-  opacity: 0.5;
-}
 .container:hover img:nth-child(3) {
-  transform: translate(80px, -80px);
-  opacity: 0.8;
+  transform: translate(120px, -80px);
 }
 .container:hover img:nth-child(2) {
-  transform: translate(60px, -60px);
-  opacity: 0.6;
+  transform: translate(40px, -40px);
+  
+  opacity: 0.8;
 }
 .container:hover img:nth-child(1) {
-  transform: translate(0, 0);
-  opacity: 0.4;
+  transform: translate(-50px, 10px);
+  
+  opacity: 0.6;
 }
 
 .navigation ul li a:hover {
@@ -542,23 +540,24 @@ footer{
 
 .partners p{
   margin-bottom: 30px;
+  font-weight: 700;
+  color: #f00606;
 }
 .partners .sponsors{
-  display: block;
-}
-.partners .sponsors a{
-  text-decoration: none;
-  color: #af9608;
-  background: #fff;
-  padding: 6px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0 20px;
 }
 
-.partners .sponsors a:nth-child(1){
-  border-bottom-left-radius: 10px;
+.partners .sponsors img{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
-.partners .sponsors a:nth-child(3){
-  border-top-right-radius: 10px;
-}
+
 /* Counters styling */
 .counters{
 	background: rgb(94, 36, 36);
@@ -641,13 +640,16 @@ footer{
     display: block;
     font-size: 18px;
   }
+  .partners .sponsors{
+    display: block;
+  }
 
 }
 
 
 /* footer */
 footer{
-  background-color: #291a1a;
+  background: linear-gradient(to bottom, rgb(233, 230, 230), rgb(65, 29, 32)) top;
   color: #fff;
   text-align: center;
   padding: 30px;
@@ -778,27 +780,27 @@ footer{
   
   footer .contact-info {
     width: 100%;
-    margin-top: 20px;
     padding: 0 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
 
   .partners .sponsors{
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .partners .sponsors a{
-    margin: 0 6px;
-  }
-  footer .contact-info{
-    width: 80%;
     margin: 0 auto;
-    padding: 0;
   }
+  .partners .sponsors img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  .partners .sponsors img:nth-child(1){
+    margin-left: 0;
+  }
+  
   footer .info-box{
     margin-top: 30px;
     width: 80%;
