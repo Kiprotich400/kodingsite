@@ -35,3 +35,8 @@ counters.forEach(counter => {
 
 	updateCount();
 });
+
+const academy = document.getElementById('academy');
+academy.addEventListener("click", function(){
+	alert("We are updating our courses soon, Keep checking, THANK YOU")
+ })
