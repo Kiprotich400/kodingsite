@@ -360,17 +360,18 @@ h1{
 .portfolio {
   background-image: url("/images/new\ skill.jpg");
   width: 100vw; 
-  min-height: 100vh;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size:contain;
   background-attachment: fixed;
   display: flex;
+  /* flex-direction: row; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   /* margin-top: 20px; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .portfolio .item {
@@ -378,24 +379,18 @@ h1{
   flex-direction: column;
   background-color: #fff;
   position: relative;
-  width: 250px;
-  height: 300px;
+  width: 150px;
+  height: 200px;
   margin: 5px;
   justify-content: center;
   align-items: center;
   text-align: center;
   border-radius: 10px;
-  margin: 20px 30px;
-  padding: 40px 20px;
-  /* margin: 0 auto; */
+  margin:50px 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .portfolio .social-media i{
   margin: 0 10px;
-}
-
-.portfolio .social-media .fa-facebook{
-  color: blue;
 }
 
 .portfolio .social-media .fa-twitter{
@@ -405,10 +400,10 @@ h1{
   color: rgb(12, 12, 185);
 }
 .portfolio .item img {
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 #blog .title h1{
   text-align: center;
@@ -551,13 +546,14 @@ footer{
 }
 .partners .sponsors{
   display: flex;
-  width: 100%;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin: 0 20px;
 }
 
 .partners .sponsors img{
-  width: 200px;
+  width: 150px;
   height: 150px;
   margin-left: 20px;
   background: transparent;
@@ -774,6 +770,10 @@ footer{
     align-items: center;
     margin: 0 auto;
   }
+
+  .partners{
+    overflow-x: hidden;
+  }
   .partners p{
     margin-top: 30px;
     font-size: 20px;
@@ -782,14 +782,17 @@ footer{
   .partners .sponsors{
     display: flex;
     margin: 0 auto;
+    
   }
   .partners .sponsors img{
-    width: 100px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     margin: 10px;
-  }
-  .partners .sponsors img:nth-child(1){
-    /* margin-left: 0; */
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 2px;
   }
   
   footer .info-box{
@@ -847,6 +850,9 @@ footer{
     margin-top: 20px;
   }
   
+  .portfolio .item{
+    margin:10px;
+  }
   .engagement p{
     /* max-width: 200px; */
     padding: 0 35px;
@@ -885,15 +891,12 @@ footer{
   }
   .partners .sponsors{
     width: 100%;
-    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .partners .sponsors img{
-    width: 250px;
-    height: 180px;
-    margin-top: 10px;
-    background: #fff;
-    padding: 10px;
-    border-radius: 5px;
+    width: 170px;
   }
 
 }
