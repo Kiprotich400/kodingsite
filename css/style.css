@@ -360,7 +360,7 @@ h1{
 .portfolio {
   background-image: url("/images/new\ skill.jpg");
   width: 100vw; 
-  height: 100%;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size:contain;
@@ -619,8 +619,8 @@ footer{
 }
 
 @media (max-width: 1060px) {
-	.counters {
-		grid-template-columns: repeat(2, 1fr);
+.counters {
+    grid-template-columns: repeat(2, 1fr);
     height: auto; 
     gap: 0;
 	}
@@ -876,7 +876,7 @@ footer{
     font-size: 18px;
   }
   .partners{
-    width: 100%;
+    width: 100vw;
     background: url(/images/macbook-code.jpg);
     height: 100%;
     background-position: center;
