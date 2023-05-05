@@ -899,7 +899,7 @@ footer{
   }
   .portfolio{
     flex-wrap: wrap;
-    padding: 30px;
+    padding: 0;
   }
   .portfolio .item img{
     width: 60px;
