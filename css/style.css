@@ -405,6 +405,7 @@ h1{
 .portfolio .item img {
   width: 80px;
   height: 80px;
+  object-fit: cover;
   border-radius: 50%;
   margin-bottom: 15px;
 }
