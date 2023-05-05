@@ -906,11 +906,11 @@ footer{
     height: 60px;
   }
   .partners{
-    max-width: 100vw;
+    min-width: 100vw;
     margin: 0;
     padding: 0;
     background: url(/images/macbook-code.jpg);
-    height: 100vh;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
