@@ -408,6 +408,7 @@ h1{
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 15px;
+  padding: 10px;
 }
 #blog .title h1{
   text-align: center;
