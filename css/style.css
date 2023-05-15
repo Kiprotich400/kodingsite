@@ -289,6 +289,9 @@ h1{
   display: flex;
 }
 
+.commitments .headlines{
+	max-width: 800px;
+}
 .commitments .image{
   width: 700px;
   height: 500px;
